@@ -1,0 +1,238 @@
+html {
+	height: 100%;
+}
+body {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    color: #000;
+    -webkit-font-smoothing: antialiased;
+
+    background-color: #fff;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p{
+    margin: 0 0 10px;
+}
+
+
+/*Container
+===============*/
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+    flex-grow: 1;
+}
+
+
+/*Headre
+===============*/
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.phonenumber {
+	font-size: 18px;
+	color: #F3784F;
+}
+
+
+/*Breadcrumbs
+===============*/
+
+.breadcrumbs {
+	margin-top: 16px;
+}
+
+.breadcrumbs_link{
+	color: #231F20;
+	font-size: 12px;
+
+	
+}
+
+.breadcrumbs_link:not(:last-child)::after {
+	content: '-';
+}
+
+
+
+
+/*Nav
+===============*/
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+
+
+
+	margin-top: 23px; 
+
+	background-color: #231F20;
+}
+
+.nav_link {
+	display: block;
+
+
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+
+	padding: 16px 10px;
+
+}
+
+.nav_link:hover {
+	background-color: #F3784F;
+}
+
+
+.nav_link:first-child {
+	padding-left: 60px;
+	border-right: none;
+}
+
+.nav_link:last-child {
+	padding-right: 60px;
+	border-right: none;
+}
+
+
+
+
+
+/*Main_block
+===============*/
+
+
+.main_block {
+	margin-top: 72px;
+}
+
+.title {
+	margin-left: 118px;
+
+	color: #F3784F;
+	font-weight: 500;
+}
+
+.wrapper {
+	margin-top: 35px;
+	width: 35%;
+
+}
+
+.main_inner {
+	margin-bottom: 20px; 
+}
+
+label { 
+	margin-right:3em;
+	width:15em;
+	float:left;
+	text-align:right;
+	display:block;
+}
+
+input {
+
+}
+
+.input {
+	width: 87px;
+}
+
+.result {
+	margin-top: 38px;
+}
+
+.btn {
+  display: inline-block;
+  cursor: pointer;
+  font-weight: 700;
+  color: #3D5906;
+  text-decoration: none;
+  padding: .5em 2em;
+  outline: none;
+  border-width: 2px 0;
+  border-style: solid none;
+  border-color: #D3F43C #000 #DADBCE;
+  border-radius: 6px;
+  background: linear-gradient(#BDF153, #85CC00) #CCE17C;
+  transition: 0.2s;
+} 
+.btn:hover { 
+	background: linear-gradient(#68E73D, #7DD617); 
+}
+.btn:active { 
+	background: linear-gradient(#A6D413, #BEE940); 
+}
+
+
+
+/*Footer
+===============*/
+
+
+.footer {
+	width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 16px 10px;
+    padding-left: 65px;
+
+	background-color: #000;
+}
+
+.footer_link {
+	color: #fff;
+	font-weight: 300;
+
+
+	padding: 16px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
